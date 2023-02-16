@@ -1,18 +1,14 @@
-# Salesforce DX Project: Next Steps
+# CountDown Clock
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This is an aura component that provides a clock for screens flows, functionalities:
+- It may be added from screen flows via (drag and drop component).
+- Input any date-time variable, so the countdown will be linked to this date.
+- It is possible to define a text message once the countdown is over.
+- It is possible to set the color of the text for the countdown clock.
+- It is possible to set the footer background color.
 
-## How Do You Plan to Deploy Your Changes?
+![CountDown Clock](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTRmOTVlY2VkODNlZDZlN2Q2Y2JjMmZlN2E4NDM3MGRhMjI0ZjlmNSZjdD1n/Rs25SpXHiNhETdyQne/giphy.gif)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+<a href="https://githubsfdeploy.herokuapp.com/?owner=limazeit&repo=GlobalCountDown&ref=main">
+    <img alt="Deploy to Salesforce" src="https://githubsfdeploy.herokuapp.com/resources/img/deploy.png">
+</a>
