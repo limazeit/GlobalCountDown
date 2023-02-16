@@ -1,0 +1,39 @@
+<!--
+  @author            : junior.lima
+  @last modified on  : 02-16-2023
+  @last modified by  : junior@limazeit.com
+-->
+<aura:component implements="lightning:availableForFlowScreens" access="global">
+    <aura:handler name="render" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="dateTime" type="DateTime" />
+    <aura:attribute name="timeOutMessase" type="String"  default="Countdown Finished"/>
+    <aura:attribute name="timeColor" type="String" default="rgb(54 49 45)"/>
+    <aura:attribute name="footerColor" type="String" default="rgb(54 49 45)"/>
+    <aura:attribute name="timeOut" type="Boolean" default="false" />
+
+    <div class="countdown">
+        <aura:if isTrue="{! v.timeOut }">
+            <h1>{! v.timeOutMessase }</h1>
+        </aura:if>
+       
+        <aura:if isTrue="{! NOT(v.timeOut) }">
+            <div class="box">
+                <span class="num" aura:id="days"></span>
+                <span class="text">Days</span>
+            </div>
+            <div class="box">
+                <span class="num" aura:id="hours"></span>
+                <span class="text">Hours</span>
+            </div>
+            <div class="box">
+                <span class="num" aura:id="minutes"></span>
+                <span class="text">Minutes</span>
+            </div>
+            <div class="box">
+                <span class="num" aura:id="seconds"></span>
+                <span class="text">Seconds</span>
+            </div>
+        </aura:if>
+
+    </div>
+</aura:component>

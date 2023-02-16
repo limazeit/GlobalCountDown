@@ -1,0 +1,6 @@
+<design:component >
+    <design:attribute name="dateTime" label="End Date Time" required="true"/>
+    <design:attribute name="timeOutMessase" label="Time Out Messase" required="true"/>
+    <design:attribute name="timeColor" label="CountDown Timer Color" required="true"/>
+    <design:attribute name="footerColor" label="Footer Background Color" required="true"/>
+</design:component>
